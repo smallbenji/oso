@@ -1,0 +1,39 @@
+.root {}
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    background-color: #282c34;
+    flex-direction: column;
+    align-content: start;
+    justify-content: start;
+    display: flex;
+}
+
+.App-Header {
+    flex-grow: 0.1;
+}
+
+.Header-Text {
+    margin: 0px 0px 0px 10px;
+    color: white;
+    font-size: 65px;
+}
+
+.MainFrame {
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: start;
+    align-items: center;
+    align-self: stretch;
+    position: relative;
+    flex-grow: 0.9;
+}
+
+.Button {
+    padding: 32px 16px;
+    font-size: 60px;
+    margin: 0px;
+}
