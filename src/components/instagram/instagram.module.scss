@@ -1,0 +1,102 @@
+.root {}
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    background-color: #282c34;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    justify-content: start;
+    margin-left: 0px;
+}
+
+.Header-Text {
+    margin-left: 10px;
+}
+
+.AppHeader {
+    flex-grow: 0.1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.MainFrame {
+    flex-grow: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px;
+    overflow: auto;
+}
+
+.FacebookContent {
+    width: 50%;
+    height: 100%;
+    background-color: #65686b;
+    background-image: none;
+    border: 0px solid black;
+    margin: 8px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ContentText {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    color: white;
+    direction: ltr;
+    align-content: start;
+    flex-grow: 0.5;
+    height: 100%;
+}
+
+.ContentType {
+    margin-right: 9px;
+}
+
+.ContentImage {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.ContentContent {
+    display: flex;
+    height: 110px;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.pfp {
+    border-radius: 50%;
+    width: 100px;
+    height: 100%;
+    flex-grow: 0.1;
+    max-width: 100px;
+    max-height: 100px;
+    margin: 5px 10px 5px 5px;
+    padding: 0px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    flex-grow: 0.9;
+    height: 100%;
+}
+
+.spongebobText {
+    flex-grow: 0.5;
+    height: 100%;
+    margin-top: -23px;
+    color: #E3E3E3;
+}

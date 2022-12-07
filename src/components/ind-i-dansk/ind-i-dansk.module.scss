@@ -1,0 +1,32 @@
+.root {}
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.AppHeader {
+    height: 100px;
+    background-color: #242526;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.HeaderText {
+    margin: 0px 0px 0px 10px;
+    color: white;
+}
+
+.content {
+    margin: 0px 10px 0px 0px;
+}
+
+.mainFrame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
