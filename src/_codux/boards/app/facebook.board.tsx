@@ -3,5 +3,5 @@ import { App } from '../../../components/app/app';
 
 export default createBoard({
     name: 'Facebook',
-    Board: () => <App />
+    Board: () => <App />,
 });
